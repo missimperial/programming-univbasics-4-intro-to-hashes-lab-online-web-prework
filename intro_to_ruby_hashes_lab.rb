@@ -9,7 +9,7 @@ end
 def pioneer
   key = :name
   pioneer = {:name => "Grace Hopper"}
-  pioneer[:name]
+  pioneer[key]
 end
 
 def id_generator

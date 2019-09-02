@@ -19,7 +19,10 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  
+  if key
+  hash[key]
+else
+  key += 1
   hash[key]
 end
 

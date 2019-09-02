@@ -8,7 +8,7 @@ end
 
 def pioneer
   key = :name
-  {:name => 'Grace Hopper'}
+  user_info = {:name => 'Grace Hopper'}
   :name
 end
 

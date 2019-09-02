@@ -8,8 +8,8 @@ end
 
 def pioneer
   key = :name
-  user_info = {:name => 'Grace Hopper'}
-  user_info[key]
+  pioneer = {:name => 'Grace Hopper'}
+  pioneer[key]
 end
 
 def id_generator

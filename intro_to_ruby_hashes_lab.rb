@@ -7,9 +7,8 @@ def my_hash
 end
 
 def pioneer
-  key = :name
-  pioneer = {:name => "Grace Hopper"}
-  pioneer[key]
+  { :name => "Grace Hopper"}
+  :name
 end
 
 def id_generator

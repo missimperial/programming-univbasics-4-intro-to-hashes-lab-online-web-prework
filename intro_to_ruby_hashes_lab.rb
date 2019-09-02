@@ -31,5 +31,5 @@ def update_counting_hash(hash, key)
   if updated_hash[key]
     updated_hash[key] += 1
   else
-      
+    updated_hash[key] = 1
 end

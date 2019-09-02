@@ -22,8 +22,7 @@ def read_from_hash(hash, key)
   if key
   hash[key]
 else
-  key += 1
-  hash[key]
+  hash[1]
 end
 end
 

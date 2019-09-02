@@ -6,7 +6,8 @@ def my_hash
   { :key => "value"}
 end
 
-def pioneer = { :name => "Grace Hopper"}
+def pioneer 
+  pioneer= {:name => "Grace Hopper"}
   pioneer[:name]
 end
 

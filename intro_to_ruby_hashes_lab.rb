@@ -7,6 +7,7 @@ def my_hash
 end
 
 def pioneer
+  key = :name
   pioneer = {:name => "Grace Hopper"}
   pioneer[:name]
 end
